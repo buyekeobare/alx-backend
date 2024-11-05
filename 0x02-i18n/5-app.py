@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """ Mock logging in"""
 from flask import Flask, render_template, request, g
-from typing import Union, Dict
 from flask_babel import Babel
 
 
