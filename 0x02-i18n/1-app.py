@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
-""" doc doc doc """
+i#!/usr/bin/env python3
+"""Basic Babel setup """
 from flask import Flask, render_template
 from flask_babel import Babel
 
 
 class Config(object):
-    """doc doc doc"""
+    """Babel Configuration"""
 
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
@@ -19,7 +19,7 @@ babel = Babel(app)
 
 @app.route("/")
 def index():
-    """doc doc doc"""
+    """Home page"""
     return render_template("1-index.html")
 
 
